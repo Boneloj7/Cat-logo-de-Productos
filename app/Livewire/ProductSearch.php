@@ -18,15 +18,7 @@ class ProductSearch extends Component
         $this->categories = Category::all();
     }
 
-    public function updatingQuery(): void
-    {
-        $this->resetPage();
-    }
 
-    public function updatingCategory(): void
-    {
-        $this->resetPage();
-    }
 
     public function render(): View
     {
